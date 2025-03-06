@@ -14,6 +14,7 @@ A powerful and flexible JavaScript library for handling currency formatting, det
 
 ```bash
 npm install currencyinfo
+```
 
 ## Usage
 
