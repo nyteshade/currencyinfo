@@ -1,4 +1,4 @@
-MIT License
+MIT License with Non-Exclusive Free Usage by Intuit, Inc.
 
 Copyright (c) 2025 Brielle Harrison
 
@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Additional Grant of Rights:
+
+In addition to the rights granted under the MIT License, the copyright holder
+hereby grants to Intuit, Inc. a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable license to use, reproduce, modify, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+1. Intuit, Inc. shall include the above copyright notice and this permission notice
+   in all copies or substantial portions of the Software.
+
+2. This additional grant of rights to Intuit, Inc. does not limit or alter the
+   rights granted to other parties under the MIT License portion of this license.
+
+3. Intuit, Inc.'s use of the Software shall not imply any endorsement or
+   affiliation with the copyright holder without separate written agreement.
+
+This Additional Grant of Rights does not modify or limit any rights granted
+under the MIT License to any other party.

@@ -1,0 +1,43 @@
+{
+  "name": "currencyinfo",
+  "version": "1.0.0",
+  "description": "Zero dependency Intl Currency helper class",
+  "main": "dist/currencyinfo.mjs",
+  "scripts": {
+    "build": "node bin/build.mjs",
+    "test": "npm run build && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nyteshade/currencyinfo.git"
+  },
+  "keywords": [
+    "Intl",
+    "NumberFormat",
+    "ZeroDeps",
+    "JavaScript",
+    "MJS"
+  ],
+  "author": "Brielle Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyteshade/currencyinfo/issues"
+  },
+  "homepage": "https://github.com/nyteshade/currencyinfo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["text", "lcov"],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  }
+}
