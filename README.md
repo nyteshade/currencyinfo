@@ -19,7 +19,7 @@ In a node js project, simply perform the following npm
 install command.
 
 ```bash
-npm install currencyinfo
+npm install @nejs/currencyinfo
 ```
 
 ### Browser
