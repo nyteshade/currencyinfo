@@ -1,3 +1,6 @@
+(function() {
+  // Body of script follows
+
 /**
  * Working with the ECMAScript {@link Intl} classes can be a trying and
  * exhausting experience. Especially when working with currency strings
@@ -775,8 +778,16 @@ class CurrencyInfo {
   static get frCAD() { return this.CAD }
 }
 
+  // Body of script ends
 
-module.exports = {
-  default: CurrencyInfo,
-  CurrencyInfo
-}
+  var target = (
+    (typeof globalThis != 'undefined') ? globalThis :
+    (typeof window != 'undefined') ? window :
+    (typeof global != 'undefined') ? global :
+    undefined
+  );
+
+  if (target) {
+    target.CurrencyInfo = CurrencyInfo;
+  }
+})()

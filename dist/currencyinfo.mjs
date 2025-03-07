@@ -775,5 +775,6 @@ class CurrencyInfo {
   static get frCAD() { return this.CAD }
 }
 
+
 export { CurrencyInfo }
 export default CurrencyInfo

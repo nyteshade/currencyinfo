@@ -12,8 +12,27 @@ A powerful and flexible JavaScript library for handling currency formatting, det
 
 ## Installation
 
+
+### Node JS
+
+In a node js project, simply perform the following npm
+install command.
+
 ```bash
 npm install currencyinfo
+```
+
+### Browser
+
+In a browser, a script tag pointed here can get you a CDN
+served version of the latest build
+
+```html
+<script type="module">
+  const { CurrencyInfo } = await import('https://cdn.jsdelivr.net/gh/nyteshade/currencyinfo@main/dist/currencyinfo.mjs')
+
+  // ... use CurrencyInfo here
+</script>
 ```
 
 ## Usage
