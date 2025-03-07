@@ -35,6 +35,13 @@ served version of the latest build
 </script>
 ```
 
+Or if you want it to automatically be injected into the window,
+you can use the iffy variant.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/nyteshade/currencyinfo@main/dist/currencyinfo.browser.js"></script>
+```
+
 ## Usage
 
 ### Basic Usage
