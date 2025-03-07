@@ -1,5 +1,5 @@
 {
-  "name": "currencyinfo",
+  "name": "@nejs/currencyinfo",
   "version": "1.0.0",
   "description": "Zero dependency Intl Currency helper class",
   "main": "dist/currencyinfo.mjs",
