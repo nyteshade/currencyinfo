@@ -27,7 +27,15 @@
   "devDependencies": {
     "jest": "^29.7.0"
   },
-
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "require": "./dist/currencyinfo.js",
+      "import": "./dist/currencyinfo.mjs",
+      "default": "./dist/currencyinfo.js"
+    },
+    "./package.json": "./package.json"
+  },
   "jest": {
     "collectCoverage": true,
     "coverageReporters": ["text", "lcov"],
