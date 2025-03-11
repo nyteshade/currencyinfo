@@ -47,7 +47,13 @@ you can use the iffy variant.
 ### Basic Usage
 
 ```js
-import { CurrencyInfo } from 'currencyinfo';
+import { CurrencyInfo } from '@nejs/currencyinfo';
+
+// or alternatively
+const { CurrencyInfo } = require('@nejs/currencyinfo');
+
+// or alternatively
+const { CurrencyInfo } = await import('@nejs/currencyinfo');
 
 // Format currency
 const usd = CurrencyInfo.USD;
