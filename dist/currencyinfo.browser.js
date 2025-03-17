@@ -135,10 +135,10 @@ class CurrencyInfo {
     // the rSeparators create new regular expression instances with the
     // separators strings escaped each time the are invoked
     const regexSeparators = {
-      group: () => new RegExp(`[${escapeRegExp(group)}]`, 'g'),
+      group: () => new RegExp(`[${escapeRegExp(group.normalize('NFKC'))}]`, 'g'),
       symbol: () => new RegExp(symbol.length < 2
-        ? `[${escapeRegExp(symbol)}]`
-        : escapeRegExp(symbol), 'g'
+        ? `[${escapeRegExp(symbol.normalize('NFKC'))}]`
+        : escapeRegExp(symbol.normalize('NFKC')), 'g'
       ),
       decimal: () => new RegExp(`[${escapeRegExp(decimal)}]`, 'g')
     }
